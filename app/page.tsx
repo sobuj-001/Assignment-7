@@ -6,10 +6,7 @@ import { useEffect, useState } from "react";
 import { bazarData } from "@/data/bazarData";
 
 function toBanglaNumber(value: number | string) {
-  return String(value).replace(
-    /\d/g,
-    (digit) => "০১২৩৪৫৬৭৮৯"[Number(digit)]
-  );
+  return String(value).replace(/\d/g, (digit) => "০১২৩৪৫৬৭৮৯"[Number(digit)]);
 }
 
 function getUnitText(unit: string) {
@@ -79,15 +76,11 @@ function ProductCard({ product }: { product: any }) {
       </div>
 
       <div className="mt-3">
-        <p className="text-[9px] text-gray-500">
-          আজকের দাম
-        </p>
+        <p className="text-[9px] text-gray-500">আজকের দাম</p>
 
         <p className="mt-0.5 text-sm font-extrabold text-[#172019]">
           {toBanglaNumber(product.today)}{" "}
-          <span className="text-[9px] font-medium text-gray-500">
-            টাকা
-          </span>
+          <span className="text-[9px] font-medium text-gray-500">টাকা</span>
         </p>
       </div>
     </Link>
@@ -108,30 +101,24 @@ export default function HomePage() {
         day: "numeric",
         month: "long",
         year: "numeric",
-      })
+      }),
     );
 
     setDayName(
       currentDate.toLocaleDateString("bn-BD", {
         weekday: "long",
-      })
+      }),
     );
   }, []);
 
   const risingProducts = [...products]
     .filter((product) => product.change?.dir === "up")
-    .sort(
-      (a, b) =>
-        Math.abs(b.change.pct) - Math.abs(a.change.pct)
-    )
+    .sort((a, b) => Math.abs(b.change.pct) - Math.abs(a.change.pct))
     .slice(0, 6);
 
   const fallingProducts = [...products]
     .filter((product) => product.change?.dir === "down")
-    .sort(
-      (a, b) =>
-        Math.abs(b.change.pct) - Math.abs(a.change.pct)
-    )
+    .sort((a, b) => Math.abs(b.change.pct) - Math.abs(a.change.pct))
     .slice(0, 6);
 
   return (
@@ -187,10 +174,7 @@ export default function HomePage() {
 
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {risingProducts.map((product) => (
-            <ProductCard
-              key={product.id}
-              product={product}
-            />
+            <ProductCard key={product.id} product={product} />
           ))}
         </div>
       </section>
@@ -205,22 +189,14 @@ export default function HomePage() {
 
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {fallingProducts.map((product) => (
-            <ProductCard
-              key={product.id}
-              product={product}
-            />
+            <ProductCard key={product.id} product={product} />
           ))}
         </div>
       </section>
 
-      <section
-        id="সব-পণ্য"
-        className="mx-auto max-w-7xl px-4 pb-12 pt-5"
-      >
+      <section id="সব-পণ্য" className="mx-auto max-w-7xl px-4 pb-12 pt-5">
         <div className="mb-4">
-          <h2 className="text-base font-bold text-[#172019]">
-            সব পণ্য
-          </h2>
+          <h2 className="text-base font-bold text-[#172019]">সব পণ্য</h2>
 
           <p className="mt-1 text-[11px] text-gray-500">
             মোট ৩৩টি পণ্য দেখানো হচ্ছে
@@ -229,13 +205,16 @@ export default function HomePage() {
 
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {products.map((product) => (
-            <ProductCard
-              key={product.id}
-              product={product}
-            />
+            <ProductCard key={product.id} product={product} />
           ))}
         </div>
       </section>
+      <footer className="mt-12 border-t border-[#dce7de] bg-white py-6 text-xs text-gray-500">
+        <div className="mx-auto max-w-7xl px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p>বাজার দর — প্রয়োজনীয় পণ্যের দাম এক নজরে।</p>
+          <p>সকল দাম সম্ভাব্য; বাজার অবস্থার ওপর নির্ভর করে পরিবর্তিত হয়।</p>
+        </div>
+      </footer>
     </main>
   );
 }
