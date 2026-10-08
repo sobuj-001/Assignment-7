@@ -625,8 +625,1389 @@
         { "market": "আমবাজার", "division": "সিলেট", "min": 35, "max": 40 },
         { "market": "চৌরাস্তা বাজার", "division": "সিলেট", "min": 34, "max": 38 }
       ]
-    }
+    },
+    {
+     "id": 19,
+    "slug": "ilish-mach",     
+    "nameBn": "ইলিশ মাছ",
+    "category": "mach",     
+    "categoryNameBn": "মাছ",
+    "categoryIcon": "🐟",
+    "unit": "kg",
+    "image": "🐠",
+    "today": 1850,
+    "yesterday": 1790,
+    "lastWeek": 1700,
+    "lastMonth": 1650,
+    "change": {
+      "dir": "up",
+      "pct": 3.4
+    },
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 2155,
+        "max": 2430
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 2115,
+        "max": 2338
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 1506,
+        "max": 1733
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 1463,
+        "max": 1650
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 1670,
+        "max": 1845
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 1687,
+        "max": 1902
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 1652,
+        "max": 1826
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 1686,
+        "max": 1940
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 1469,
+        "max": 1657
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 1531,
+        "max": 1692
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 1789,
+        "max": 2059
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 1756,
+        "max": 1981
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "katla-mach",
+    "nameBn": "কাতলা মাছ",
+    "category": "mach",
+    "categoryNameBn": "মাছ",
+    "categoryIcon": "🐟",
+    "unit": "kg",
+    "image": "🐠",
+    "today": 43,
+    "yesterday": 45,
+    "lastWeek": 44,
+    "lastMonth": 42,
+    "change": {
+      "dir": "down",
+      "pct": -4.4
+    },
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 42,
+        "max": 48
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 42,
+        "max": 46
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 41,
+        "max": 47
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 40,
+        "max": 45
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 39,
+        "max": 43
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 39,
+        "max": 44
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 38,
+        "max": 42
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 39,
+        "max": 45
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 39,
+        "max": 44
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 40,
+        "max": 45
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 42,
+        "max": 48
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 41,
+        "max": 46
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "chingri-mach",
+    "nameBn": "চিংড়ি মাছ (খোলা)",
+    "category": "mach",
+    "categoryNameBn": "মাছ",
+    "categoryIcon": "🐟",
+    "unit": "kg",
+    "image": "🦐",
+    "today": 330,
+    "yesterday": 320,
+    "lastWeek": 310,
+    "lastMonth": 300,
+    "change": {
+      "dir": "up",
+      "pct": 3.1
+    },
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 326,
+        "max": 367
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 320,
+        "max": 353
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 259,
+        "max": 298
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 252,
+        "max": 284
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 298,
+        "max": 329
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 301,
+        "max": 339
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 280,
+        "max": 309
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 286,
+        "max": 329
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 298,
+        "max": 336
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 310,
+        "max": 343
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 319,
+        "max": 367
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 313,
+        "max": 353
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "murgi-r-mangsho",
+    "nameBn": "মুরগির মাংস",
+    "category": "mangsho",
+    "categoryNameBn": "মাংস",
+    "categoryIcon": "🍗",
+    "unit": "kg",
+    "image": "🍗",
+    "today": 225,
+    "yesterday": 228,
+    "lastWeek": 220,
+    "lastMonth": 215,
+    "change": {
+      "dir": "down",
+      "pct": -1.3
+    },
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 240,
+        "max": 270
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 235,
+        "max": 260
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 216,
+        "max": 248
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 209,
+        "max": 236
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 203,
+        "max": 224
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 205,
+        "max": 231
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 201,
+        "max": 222
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 205,
+        "max": 236
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 187,
+        "max": 211
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 195,
+        "max": 215
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 218,
+        "max": 250
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 214,
+        "max": 241
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "goru-r-mangsho",
+    "nameBn": "গরুর মাংস",
+    "category": "mangsho",
+    "categoryNameBn": "মাংস",
+    "categoryIcon": "🍗",
+    "unit": "kg",
+    "image": "🥩",
+    "today": 790,
+    "yesterday": 800,
+    "lastWeek": 780,
+    "lastMonth": 760,
+    "change": {
+      "dir": "down",
+      "pct": -1.2
+    },
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 780,
+        "max": 879
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 766,
+        "max": 846
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 757,
+        "max": 871
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 735,
+        "max": 829
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 713,
+        "max": 788
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 720,
+        "max": 812
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 705,
+        "max": 780
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 720,
+        "max": 828
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 713,
+        "max": 804
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 743,
+        "max": 821
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 764,
+        "max": 879
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 750,
+        "max": 846
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "khasir-mangsho",
+    "nameBn": "খাসির মাংস",
+    "category": "mangsho",
+    "categoryNameBn": "মাংস",
+    "categoryIcon": "🍗",
+    "unit": "kg",
+    "image": "🍖",
+    "today": 1290,
+    "yesterday": 1330,
+    "lastWeek": 1300,
+    "lastMonth": 1280,
+    "change": {
+      "dir": "down",
+      "pct": -3
+    },
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 1273,
+        "max": 1436
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 1250,
+        "max": 1382
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 1236,
+        "max": 1422
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 1200,
+        "max": 1354
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 1164,
+        "max": 1287
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 1176,
+        "max": 1326
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 1152,
+        "max": 1273
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 1176,
+        "max": 1353
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 1164,
+        "max": 1313
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 1213,
+        "max": 1341
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 1248,
+        "max": 1436
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 1225,
+        "max": 1381
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "hanser-mangsho",
+    "nameBn": "হাঁসের মাংস",
+    "category": "mangsho",
+    "categoryNameBn": "মাংস",
+    "categoryIcon": "🍗",
+    "unit": "kg",
+    "image": "🦆",
+    "today": 285,
+    "yesterday": 295,
+    "lastWeek": 310,
+    "lastMonth": 320,
+    "change": {
+      "dir": "down",
+      "pct": -3.4
+    },
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 281,
+        "max": 317
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 276,
+        "max": 305
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 273,
+        "max": 314
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 265,
+        "max": 299
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 257,
+        "max": 284
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 260,
+        "max": 293
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 255,
+        "max": 281
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 260,
+        "max": 299
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 257,
+        "max": 290
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 268,
+        "max": 296
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 276,
+        "max": 317
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 271,
+        "max": 305
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "dim",
+    "nameBn": "ডিম",
+    "category": "dim-dui",
+    "categoryNameBn": "ডিম-দুধ",
+    "categoryIcon": "🥛",
+    "unit": "dozen",
+    "image": "🥚",
+    "today": 158,
+    "yesterday": 152,
+    "lastWeek": 148,
+    "lastMonth": 145,
+    "change": {
+      "dir": "up",
+      "pct": 3.9
+    },
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 156,
+        "max": 176
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 153,
+        "max": 169
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 159,
+        "max": 183
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 154,
+        "max": 174
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 134,
+        "max": 148
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 135,
+        "max": 153
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 141,
+        "max": 156
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 144,
+        "max": 166
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 143,
+        "max": 161
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 149,
+        "max": 164
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 153,
+        "max": 176
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 150,
+        "max": 169
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "dui-dudh",
+    "nameBn": "দুধ",
+    "category": "dim-dui",
+    "categoryNameBn": "ডিম-দুধ",
+    "categoryIcon": "🥛",
+    "unit": "litre",
+    "image": "🥛",
+    "today": 102,
+    "yesterday": 100,
+    "lastWeek": 98,
+    "lastMonth": 96,
+    "change": {
+      "dir": "up",
+      "pct": 2
+    },
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 101,
+        "max": 114
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 99,
+        "max": 109
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 98,
+        "max": 112
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 95,
+        "max": 107
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 92,
+        "max": 102
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 93,
+        "max": 105
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 91,
+        "max": 101
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 93,
+        "max": 107
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 92,
+        "max": 104
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 96,
+        "max": 106
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 99,
+        "max": 114
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 97,
+        "max": 109
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "doi",
+    "nameBn": "দই",
+    "category": "dim-dui",
+    "categoryNameBn": "ডিম-দুধ",
+    "categoryIcon": "🥛",
+    "unit": "litre",
+    "image": "🥣",
+    "today": 92,
+    "yesterday": 92,
+    "lastWeek": 90,
+    "lastMonth": 88,
+    "change": {
+      "dir": "flat",
+      "pct": 0
+    },
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 91,
+        "max": 102
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 89,
+        "max": 99
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 88,
+        "max": 101
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 86,
+        "max": 97
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 83,
+        "max": 92
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 84,
+        "max": 95
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 82,
+        "max": 91
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 84,
+        "max": 96
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 83,
+        "max": 94
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 87,
+        "max": 96
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 89,
+        "max": 102
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 87,
+        "max": 98
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "mokhhan",
+    "nameBn": "মাখন (১০০ গ্রাম)",
+    "category": "dim-dui",
+    "categoryNameBn": "ডিম-দুধ",
+    "categoryIcon": "🥛",
+    "unit": "piece",
+    "image": "🧈",
+    "today": 145,
+    "yesterday": 140,
+    "lastWeek": 138,
+    "lastMonth": 135,
+    "change": {
+      "dir": "up",
+      "pct": 3.6
+    },
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 143,
+        "max": 161
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 141,
+        "max": 155
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 139,
+        "max": 160
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 135,
+        "max": 152
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 131,
+        "max": 145
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 132,
+        "max": 149
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 129,
+        "max": 143
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 132,
+        "max": 152
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 131,
+        "max": 148
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 136,
+        "max": 151
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 140,
+        "max": 161
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 138,
+        "max": 155
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "ada",
+    "nameBn": "আদা",
+    "category": "mosla",
+    "categoryNameBn": "মসলা",
+    "categoryIcon": "🌶️",
+    "unit": "kg",
+    "image": "🫚",
+    "today": 85,
+    "yesterday": 78,
+    "lastWeek": 72,
+    "lastMonth": 70,
+    "change": {
+      "dir": "up",
+      "pct": 9
+    },
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 84,
+        "max": 95
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 82,
+        "max": 91
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 81,
+        "max": 94
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 79,
+        "max": 89
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 77,
+        "max": 85
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 78,
+        "max": 87
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 76,
+        "max": 84
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 77,
+        "max": 89
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 65,
+        "max": 74
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 68,
+        "max": 75
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 99,
+        "max": 114
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 97,
+        "max": 109
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "slug": "roshun",
+    "nameBn": "রসুন",
+    "category": "mosla",
+    "categoryNameBn": "মসলা",
+    "categoryIcon": "🌶️",
+    "unit": "kg",
+    "image": "🧄",
+    "today": 125,
+    "yesterday": 135,
+    "lastWeek": 140,
+    "lastMonth": 150,
+    "change": {
+      "dir": "down",
+      "pct": -7.4
+    },
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 123,
+        "max": 139
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 121,
+        "max": 134
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 120,
+        "max": 138
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 116,
+        "max": 131
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 113,
+        "max": 125
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 114,
+        "max": 129
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 112,
+        "max": 123
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 114,
+        "max": 131
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 113,
+        "max": 127
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 118,
+        "max": 130
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 121,
+        "max": 139
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 119,
+        "max": 134
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "slug": "morich-gunda",
+    "nameBn": "মরিচ গুঁড়া",
+    "category": "mosla",
+    "categoryNameBn": "মসলা",
+    "categoryIcon": "🌶️",
+    "unit": "kg",
+    "image": "🌶️",
+    "today": 245,
+    "yesterday": 250,
+    "lastWeek": 240,
+    "lastMonth": 235,
+    "change": {
+      "dir": "down",
+      "pct": -2
+    },
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 271,
+        "max": 305
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 266,
+        "max": 294
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 235,
+        "max": 270
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 228,
+        "max": 257
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 199,
+        "max": 220
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 201,
+        "max": 227
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 219,
+        "max": 242
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 223,
+        "max": 257
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 221,
+        "max": 249
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 230,
+        "max": 255
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 237,
+        "max": 273
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 233,
+        "max": 262
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "slug": "dhanepata-gunda",
+    "nameBn": "ধনেপাতা গুঁড়া",
+    "category": "mosla",
+    "categoryNameBn": "মসলা",
+    "categoryIcon": "🌶️",
+    "unit": "kg",
+    "image": "🍃",
+    "today": 265,
+    "yesterday": 265,
+    "lastWeek": 258,
+    "lastMonth": 250,
+    "change": {
+      "dir": "flat",
+      "pct": 0
+    },
+    "markets": [
+      {
+        "market": "কারওয়ান বাজার",
+        "division": "ঢাকা",
+        "min": 262,
+        "max": 295
+      },
+      {
+        "market": "গ্রীন মার্কেট, মিরপুর",
+        "division": "ঢাকা",
+        "min": 257,
+        "max": 284
+      },
+      {
+        "market": "চৌদগ্রাম বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 254,
+        "max": 292
+      },
+      {
+        "market": "আমতলী বাজার",
+        "division": "চট্টগ্রাম",
+        "min": 247,
+        "max": 278
+      },
+      {
+        "market": "সদর বাজার",
+        "division": "রাজশাহী",
+        "min": 239,
+        "max": 264
+      },
+      {
+        "market": "বাসারহাট বাজার",
+        "division": "রাজশাহী",
+        "min": 242,
+        "max": 272
+      },
+      {
+        "market": "মাঠ বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 237,
+        "max": 262
+      },
+      {
+        "market": "চৌর বাজার",
+        "division": "ময়মনসিংহ",
+        "min": 242,
+        "max": 278
+      },
+      {
+        "market": "বাজারহাট",
+        "division": "খুলনা",
+        "min": 239,
+        "max": 270
+      },
+      {
+        "market": "ডবলগেট বাজার",
+        "division": "খুলনা",
+        "min": 249,
+        "max": 275
+      },
+      {
+        "market": "আমবাজার",
+        "division": "সিলেট",
+        "min": 256,
+        "max": 295
+      },
+      {
+        "market": "চৌরাস্তা বাজার",
+        "division": "সিলেট",
+        "min": 252,
+        "max": 284
+      }
+    ]
+  }
   ]
 };
 
-// ................................
+
+
