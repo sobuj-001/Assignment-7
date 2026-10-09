@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791562572777,
+      "tag": "0000_careless_steel_serpent",
+      "breakpoints": true
+    }
+  ]
+}

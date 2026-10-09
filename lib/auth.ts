@@ -50,31 +50,24 @@
 // });
 
 import { betterAuth } from "better-auth";
-import Database from "better-sqlite3";
-import path from "path";
-
-const databaseUrl = process.env.TURSO_DATABASE_URL;
-
-const db = databaseUrl
-  ? (() => {
-      throw new Error(
-        "Turso is configured, but its Better Auth database adapter must be configured first."
-      );
-    })()
-  : new Database(path.join(process.cwd(), "sqlite.db"));
-
-const secret = process.env.BETTER_AUTH_SECRET;
-
-if (!secret || secret.length < 32) {
-  throw new Error("BETTER_AUTH_SECRET must be set to at least 32 characters.");
-}
+import { drizzleAdapter } from "@better-auth/drizzle-adapter";
+import { db } from "@/lib/db";
 
 export const auth = betterAuth({
-  database: db,
-  secret,
+  database: drizzleAdapter(db, {
+    provider: "sqlite",
+  }),
+
+  secret: process.env.BETTER_AUTH_SECRET!,
+
   baseURL:
     process.env.BETTER_AUTH_URL ||
+    "http://localhost:3000",
+
+  trustedOrigins: [
+    "http://localhost:3000",
     "https://assignment-7-fzq3.vercel.app",
+  ],
 
   emailAndPassword: {
     enabled: true,
