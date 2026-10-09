@@ -1,12 +1,23 @@
 "use client";
 
 import Link from "next/link";
-import Navbar from "@/app/components/Navbar";
 import { useEffect, useState } from "react";
 import { bazarData } from "@/data/bazarData";
 
+
 function toBanglaNumber(value: number | string) {
   return String(value).replace(/\d/g, (digit) => "০১২৩৪৫৬৭৮৯"[Number(digit)]);
+}
+
+function parsePrice(priceStr: string | number) {
+  if (typeof priceStr === "number") return priceStr;
+  const banglaDigits: { [key: string]: string } = {
+    '০': '0', '১': '1', '২': '2', '৩': '3', '৪': '4',
+    '৫': '5', '৬': '6', '৭': '7', '৮': '8', '৯': '9'
+  };
+  const englishNumberStr = String(priceStr).replace(/[০-৯]/g, (match) => banglaDigits[match]);
+  const numericValue = parseFloat(englishNumberStr.replace(/[^0-9.]/g, ""));
+  return isNaN(numericValue) ? 0 : numericValue;
 }
 
 function getUnitText(unit: string) {
@@ -92,6 +103,7 @@ export default function HomePage() {
 
   const [date, setDate] = useState("");
   const [dayName, setDayName] = useState("");
+  const [sortType, setSortType] = useState("default");
 
   useEffect(() => {
     const currentDate = new Date();
@@ -121,16 +133,31 @@ export default function HomePage() {
     .sort((a, b) => Math.abs(b.change.pct) - Math.abs(a.change.pct))
     .slice(0, 6);
 
+  const sortedAllProducts = [...products].sort((a, b) => {
+    if (sortType === "low-to-high") {
+      return parsePrice(a.today) - parsePrice(b.today);
+    } else if (sortType === "high-to-low") {
+      return parsePrice(b.today) - parsePrice(a.today);
+    }
+    return 0;
+  });
+
   return (
     <main className="min-h-screen bg-[#f5f8f5] text-[#172019]">
-      <Navbar />
+      
+      <div className="sticky top-0 z-40 bg-[#f5f8f5]/90 backdrop-blur-md py-2 px-4 border-b border-[#dce7de]">
+        <div className="mx-auto max-w-7xl flex items-center justify-between text-xs text-gray-600">
+          <span>📍 আজকের বাজার দর আপডেট</span>
+          <span className="font-semibold text-[#079447]">{dayName}, {date}</span>
+        </div>
+      </div>
 
       <section className="mx-auto max-w-7xl px-4 py-6">
         <div className="relative overflow-hidden rounded-3xl border border-[#dce7de] bg-white">
           <div className="flex min-h-420px items-center px-6 py-12 md:px-12 lg:px-16">
             <div className="w-full md:w-1/2">
               <p className="text-sm font-semibold text-[#079447]">
-                {dayName} • {date}
+                {dayName} {date}
               </p>
 
               <h1 className="mt-4 text-4xl font-extrabold leading-tight md:text-5xl lg:text-6xl">
@@ -195,26 +222,36 @@ export default function HomePage() {
       </section>
 
       <section id="সব-পণ্য" className="mx-auto max-w-7xl px-4 pb-12 pt-5">
-        <div className="mb-4">
-          <h2 className="text-base font-bold text-[#172019]">সব পণ্য</h2>
+        <div className="mb-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+          <div>
+            <h2 className="text-base font-bold text-[#172019]">সব পণ্য</h2>
+            <p className="mt-1 text-[11px] text-gray-500">
+              মোট ৩৩টি পণ্য দেখানো হচ্ছে
+            </p>
+          </div>
 
-          <p className="mt-1 text-[11px] text-gray-500">
-            মোট ৩৩টি পণ্য দেখানো হচ্ছে
-          </p>
+          <div className="flex items-center gap-2">
+            <span className="text-xs font-semibold text-gray-700">সাজান:</span>
+            <select
+              value={sortType}
+              onChange={(e) => setSortType(e.target.value)}
+              className="rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-xs text-[#172019] focus:border-[#079447] focus:outline-none"
+            >
+              <option value="default">ডিফল্ট</option>
+              <option value="low-to-high">দাম: কম থেকে বেশি</option>
+              <option value="high-to-low">দাম: বেশি থেকে কম</option>
+            </select>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {products.map((product) => (
+          {sortedAllProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
       </section>
-      <footer className="mt-12 border-t border-[#dce7de] bg-white py-6 text-xs text-gray-500">
-        <div className="mx-auto max-w-7xl px-4 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p>বাজার দর — প্রয়োজনীয় পণ্যের দাম এক নজরে।</p>
-          <p>সকল দাম সম্ভাব্য; বাজার অবস্থার ওপর নির্ভর করে পরিবর্তিত হয়।</p>
-        </div>
-      </footer>
     </main>
   );
 }
+
+
