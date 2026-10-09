@@ -65,7 +65,7 @@ export default function SignUpPage() {
   };
 
   return (
-    <div className="flex w-full flex-grow items-center justify-center bg-[#f5f8f5] px-4 py-12">
+    <div className="flex min-h-screen w-full items-center justify-center bg-[#f5f8f5] px-4 py-12">
       <div className="w-full max-w-md rounded-2xl border border-[#dce7de] bg-white p-8 shadow-sm">
         <h1 className="text-center text-2xl font-bold text-[#172019]">
           অ্যাকাউন্ট তৈরি করুন

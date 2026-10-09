@@ -74,7 +74,7 @@ function ProductDetailContent() {
           </div>
         </div>
 
-        <div className="rounded-xl bg-[#fafcfb] border border-gray-100 p-4 text-right min-w-[160px]">
+        <div className="rounded-xl bg-[#fafcfb] border border-gray-100 p-4 text-right min-w-160px">
           <p className="text-xs text-gray-500">আজকের দাম</p>
           <p className="text-2xl font-extrabold text-gray-900 mt-0.5">
             {product.today}
@@ -115,7 +115,7 @@ function ProductDetailContent() {
           </div>
         </div>
       </div>
-      
+
       <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm space-y-4">
         <h2 className="text-base font-bold text-gray-900">বাজারভিত্তিক আজকের দাম</h2>
         <div className="overflow-x-auto">
