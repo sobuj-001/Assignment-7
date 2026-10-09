@@ -67,6 +67,7 @@ export const auth = betterAuth({
   trustedOrigins: [
     "http://localhost:3000",
     "https://assignment-7-fzq3.vercel.app",
+    "https://reliable-gelato-2931c9.netlify.app",
   ],
 
   emailAndPassword: {
@@ -95,4 +96,3 @@ export const auth = betterAuth({
       : {}),
   },
 });
-
